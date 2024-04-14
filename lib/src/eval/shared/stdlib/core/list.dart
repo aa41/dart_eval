@@ -75,6 +75,7 @@ class $List<E> implements List<E>, $Instance {
       case 'length':
         return $int($value.length);
     }
+
     return $super.$getProperty(runtime, identifier);
   }
 
